@@ -1,12 +1,18 @@
 # TypeScript barebones starter project
 
-## Running
+### Building
+
+```sh
+npm run build
+```
+
+### Running
 
 ```sh
 npm run start
 ```
 
-## Linting
+### Linting
 
 ```sh
 npm run lint
