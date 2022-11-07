@@ -4,6 +4,7 @@
   "description": "",
   "main": "dist/app.js",
   "scripts": {
+    "prebuild": "rm --rf dist",
     "build": "./node_modules/typescript/bin/tsc",
     "start": "node dist/app.js",
     "lint": "eslint . --ext .ts",
